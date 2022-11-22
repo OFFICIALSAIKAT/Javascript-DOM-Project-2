@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changer</title>
+</head>
+<style>
+ 
+#color {
+  width: 300px;
+  height: 300px;
+  background-color:crimson;
+  color: white;
+  width: 40%;
+  margin: auto;
+  border-radius: 15px;
+}
+#color h1{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    background: #000;
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+</style>
+</style>
+
+
+<div id="color">
+  <h1>Click on the button to get the color change</h1>
+</div>
+<button class="btn" onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  document.getElementById("color").style.backgroundColor = "lightblue";
+  document.getElementById("color").style.color= "black";
+}
+</script
+</html>
