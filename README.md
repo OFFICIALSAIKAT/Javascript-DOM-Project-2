@@ -1,7 +1,7 @@
 # Javascript-DOM-Project-2
 Color-Changer
 
-## Project-1: [Live-Link](https://colorchangerdom.netlify.app/)
+## Project-2: [Live-Link](https://colorchangerdom.netlify.app/)
 
 ## Screenshot:
 
